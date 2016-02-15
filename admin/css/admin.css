@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	padding: 8px;
+}
+
+#add{
+	display: inline-block;
+	width: 80px;
+	float: right;
+	margin: 0;
+}
+
+#users {
+	margin-left: 15px;
+}
+
+a button{
+	cursor: auto;
+}
+
+table{
+	width: 100%;
+	margin-top: 10px;
+}
+
+table, th, td{
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 5px;
+}
+
+thead th{
+	border: solid black;
+	border-width: 2px 1px 2px;
+}
+
+thead th:first-child{
+	border-width: 2px 1px 2px 2px;
+	width: 10vw;
+}
+
+thead th:nth-child(4){
+	width: 10vw;
+}
+
+thead th:last-child{
+	border-width: 2px 2px 2px 1px;
+	width:1vw;
+}
+
+tbody tr td{
+	border: solid black;
+	border-width: 1px;
+	vertical-align: super;
+}
+
+tbody tr td:first-child{
+	border-width: 1px 1px 1px 2px;
+	text-align: center;
+}
+
+tbody tr td:nth-child(4){
+	text-align: center;
+}
+
+tbody tr td:last-child{
+	border-width: 1px 2px 1px 1px;
+	text-align: center;
+}
+
+tbody tr:last-child td{
+	border-bottom-width: 2px;
+}
+
+button{
+	width: 42px;
+	height: 22px;
+	margin: 5px 0;
+}
+
+button a{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+/* create, edit & delete */
+
+h1{
+	margin: 0 0 0.67em;
+}
+
+label {
+	display : inline-block;
+	width : 100px;
+	vertical-align: top;
+}
+
+label + p{
+	display: inline-block;
+}
+
+textarea{
+	width: 402px;
+	height: 201px;
+}
+
+form div{
+	margin: 5px 0;
+}
+
+form input[type="text"]{
+	width: 400px;
+}
+
+form input[type="password"]{
+	width: 400px;
+}
+
+form input[type="submit"]{
+	padding: 2px 5px;
+}
+
+#delform input{
+	margin: 25px 0;
+}
+
+section {
+	border: 1px solid #cccccc;
+	padding: 5px;
+}
