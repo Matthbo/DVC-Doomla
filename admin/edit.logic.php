@@ -18,7 +18,7 @@ function getUnderOptions($pages){
 		$selected = "";
 
 		if($pagecontent_id == null && $menuorder != -1 && $page_id != $id){
-			if($page_id == $current_id) {$selected = "selected";var_dump($page_id); var_dump($current_id);}
+			if($page_id == $current_id) {$selected = "selected";}
 
 			$options .= "<option value='$page_id' $selected>$menuoption</option>";
 		}
